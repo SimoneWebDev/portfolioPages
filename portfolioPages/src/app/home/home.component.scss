@@ -1,0 +1,49 @@
+.home-container {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .about-section, .skills-section, .contact-section, .education-section, .work-experience-section, .extra-skills-section, .certifications-section, .tools-section {
+    padding: 80px 0;
+  }
+  
+  .about-section h1, .about-section h2, .skills-section h2, .contact-section h2, .education-section h2, .work-experience-section h2, .extra-skills-section h2, .certifications-section h2, .tools-section h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .skills-icons .col-6, .tools-icons .col-6 {
+    margin-bottom: 20px;
+  }
+  
+  .skills-icons i, .tools-icons i {
+    margin-bottom: 10px;
+  }
+  
+  .skills-icons p, .tools-icons p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .animate__animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+      opacity: 0;
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
